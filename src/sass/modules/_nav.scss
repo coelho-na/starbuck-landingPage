@@ -1,0 +1,27 @@
+.navegation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+
+  &__logo {
+    position: relative;
+    max-width: 80px;
+  }
+
+  &__list {
+    position: relative;
+    display: flex;
+  }
+
+  &__link {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+  }
+}
